@@ -1,0 +1,62 @@
+body {
+  background-image: url("halftone.png");
+}
+div {
+  width: 500px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+  top: 80px;
+  border: 2px solid #5E2612;
+  font-family: "Helvetica", sans-serif;
+  font-weight: bolder;
+  background-color: rgba(240, 240, 0, .1);
+  box-shadow: .05em .05em 10px brown;
+}
+legend{
+  color: #aa7243;
+  font-size: 30px;
+  margin: 10px;
+
+}
+li {
+  color: #7a5230;
+  font-weight: bold;
+  width: 450px;
+}
+label {
+  position: relative;
+  color: #aa7243;
+  left: 18px;
+}
+form {
+  margin: 30px;
+  background-color: rgba(244, 164, 96, .1);
+  border-radius: 6px;
+  overflow: hidden;
+}
+#task {
+  width: 300px;
+  padding: 5px;
+  margin-left: 20px;
+}
+#submission {
+  width: 25%;
+  margin: 10px;
+  position: relative;
+  left: 12px;
+  padding: 9px;
+  color: navy;
+}
+ul {
+  list-style-type: none;
+  width: 450px;
+}
+
+button {
+  margin-right: 10px;
+  margin-bottom: 3px;
+  border-radius: 5px;
+  color: #7a5230;
+  background-color: rgba(244, 164, 96, .4);
+}
